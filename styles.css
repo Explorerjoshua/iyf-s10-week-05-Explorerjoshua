@@ -1,0 +1,50 @@
+body {
+    font-family: Arial, sans-serif;
+    padding: 20px;
+}
+
+.container {
+    max-width: 500px;
+    margin: auto;
+}
+
+.completed {
+    text-decoration: line-through;
+    color: gray;
+}
+
+button {
+    margin-left: 10px;
+    cursor: pointer;
+}
+
+.highlight {
+    background-color: yellow;
+}
+
+.filters button {
+    margin-right: 5px;
+}
+
+/* DARK MODE */
+body.dark {
+    background-color: #121212;
+    color: white;
+}
+
+body.dark .container {
+    background-color: #1e1e1e;
+    padding: 20px;
+    border-radius: 8px;
+}
+
+body.dark input {
+    background-color: #333;
+    color: white;
+    border: 1px solid #555;
+}
+
+body.dark button {
+    background-color: #444;
+    color: white;
+}
